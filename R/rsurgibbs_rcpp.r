@@ -81,7 +81,7 @@ else
     if(is.null(Prior$nu)) {nu=nreg+BayesmConstant.nuInc}
        else {nu=Prior$nu}
     if(is.null(Prior$V)) {V=nu*diag(nreg)}
-       else {ssq=Prior$V}
+       else {V=Prior$V}
    }
 #
 # check dimensions of Priors
